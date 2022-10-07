@@ -1,6 +1,6 @@
 =================================================7/10/2022======================================================
 Hub    --> Gelen bilgiyi bütün PC lere aynı anda gönderir. Çoğaltıcı gibi. Artık kullanılmıyor.
-Switch --> Verileri doğrudan istenilen hiedefe gönderir. Bidirectional haberleşir. 
+Switch --> Verileri doğrudan istenilen hedefe gönderir. Bidirectional haberleşir. 
            Ana cihazları ağa bağlamak için kullanılır. (Data Link Layer - Frame)
 Router --> LAN'ın dışında yer alır. Diğer ağlara açılan kapı görevindedirler.
            Farklı ağlardaki ana PC'ler arası iletişime izin verirler. (Network Layer - Package)
