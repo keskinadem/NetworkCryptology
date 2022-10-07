@@ -1,0 +1,17 @@
+=================================================7/10/2022======================================================
+Hub    --> Gelen bilgiyi bütün PC lere aynı anda gönderir. Çoğaltıcı gibi. Artık kullanılmıyor.
+Switch --> Verileri doğrudan istenilen hiedefe gönderir. Bidirectional haberleşir. 
+           Ana cihazları ağa bağlamak için kullanılır. (Data Link Layer - Frame)
+Router --> LAN'ın dışında yer alır. Diğer ağlara açılan kapı görevindedirler.
+           Farklı ağlardaki ana PC'ler arası iletişime izin verirler. (Network Layer - Package)
+================================================================================================================
+The PDU of Transport Layer is called as a Segment.
+The PDU of Network Layer is called as a Packet.
+The PDU of the Data-Link Layer is called Frames
+
+  The Application layer can give any amount of data to the underlying layers,
+but it is not possible to send all the data given by the application layer to send directly.
+Thus, the TCP comes into the picture. The TCP helps break the data(given by application layer)
+into MSS(Maximum Segment Size) that the given network can handle so that further fragmentatio
+doesn’t occur in the routers. And this TCP is also responsible for acknowledgements when segments are delivered.
+================================================================================================================
