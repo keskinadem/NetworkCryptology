@@ -1,0 +1,49 @@
+Nov  7 09:33:56 admkskn-VirtualBox charon: 00[LIB] loaded plugins: charon aes des rc2 sha2 sha1 md5 random nonce x509 revocation constraints pubkey pkcs1 pkcs7 pkcs8 pkcs12 pgp dnskey sshkey pem fips-prf gmp curve25519 xcbc cmac hmac attr kernel-netlink resolve socket-default stroke vici updown xauth-generic
+
+Nov  7 09:33:56 admkskn-VirtualBox charon: 00[JOB] spawning 16 worker threads
+
+Nov  7 09:33:56 admkskn-VirtualBox charon: 05[CFG] received stroke: add connection 'tunnel'
+
+Nov  7 09:33:56 admkskn-VirtualBox charon: 05[CFG] added configuration 'tunnel'
+
+Nov  7 09:33:56 admkskn-VirtualBox charon: 07[CFG] received stroke: initiate 'tunnel'
+
+Nov  7 09:33:56 admkskn-VirtualBox charon: 07[IKE] initiating IKE_SA tunnel[1] to 192.168.50.4
+
+Nov  7 09:33:56 admkskn-VirtualBox charon: 07[ENC] generating IKE_SA_INIT request 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) N(FRAG_SUP) N(HASH_ALG) N(REDIR_SUP) ]
+
+Nov  7 09:33:56 admkskn-VirtualBox charon: 07[NET] sending packet: from 192.168.50.5[500] to 192.168.50.4[500] (338 bytes)
+
+Nov  7 09:34:00 admkskn-VirtualBox charon: 09[IKE] retransmit 1 of request with message ID 0
+
+Nov  7 09:34:00 admkskn-VirtualBox charon: 09[NET] sending packet: from 192.168.50.5[500] to 192.168.50.4[500] (338 bytes)
+
+Nov  7 09:34:07 admkskn-VirtualBox charon: 10[IKE] retransmit 2 of request with message ID 0
+
+Nov  7 09:34:07 admkskn-VirtualBox charon: 10[NET] sending packet: from 192.168.50.5[500] to 192.168.50.4[500] (338 bytes)
+
+Nov  7 09:34:20 admkskn-VirtualBox charon: 11[IKE] retransmit 3 of request with message ID 0
+
+Nov  7 09:34:20 admkskn-VirtualBox charon: 11[NET] sending packet: from 192.168.50.5[500] to 192.168.50.4[500] (338 bytes)
+
+Nov  7 09:34:43 admkskn-VirtualBox charon: 12[IKE] retransmit 4 of request with message ID 0
+
+Nov  7 09:34:43 admkskn-VirtualBox charon: 12[NET] sending packet: from 192.168.50.5[500] to 192.168.50.4[500] (338 bytes)
+
+Nov  7 09:34:57 admkskn-VirtualBox NetworkManager[614]: <info>  [1667802897.9177] dhcp4 (enp0s3): state changed new lease, address=192.168.50.5
+
+Nov  7 09:35:08 admkskn-VirtualBox NetworkManager[614]: <info>  [1667802908.1724] manager: NetworkManager state is now CONNECTED_SITE
+
+Nov  7 09:35:08 admkskn-VirtualBox dbus-daemon[612]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.4' (uid=0 pid=614 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")
+
+Nov  7 09:35:08 admkskn-VirtualBox systemd[1]: Starting Network Manager Script Dispatcher Service...
+
+Nov  7 09:35:08 admkskn-VirtualBox dbus-daemon[612]: [system] Successfully activated service 'org.freedesktop.nm_dispatcher'
+
+Nov  7 09:35:08 admkskn-VirtualBox systemd[1]: Started Network Manager Script Dispatcher Service.
+
+Nov  7 09:35:18 admkskn-VirtualBox systemd[1]: NetworkManager-dispatcher.service: Deactivated successfully.
+
+Nov  7 09:35:25 admkskn-VirtualBox charon: 09[IKE] retransmit 5 of request with message ID 0
+
+Nov  7 09:35:25 admkskn-VirtualBox charon: 09[NET] sending packet: from 192.168.50.5[500] to 192.168.50.4[500] (338 bytes)

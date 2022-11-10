@@ -1,0 +1,36 @@
+Sender side:
+
+
+Nov  7 09:29:30 admkskn-VirtualBox nautilus[2843]: Could not delete '.meta.isrunning': No such file or directory
+
+Nov  7 09:29:33 admkskn-VirtualBox charon: 00[DMN] signal of type SIGINT received. Shutting down
+
+Nov  7 09:29:33 admkskn-VirtualBox charon: 00[IKE] deleting IKE_SA tunnel[1] between 192.168.50.5[192.168.50.5]...192.168.50.4[192.168.50.4]
+
+Nov  7 09:29:33 admkskn-VirtualBox charon: 00[IKE] sending DELETE for IKE_SA tunnel[1]
+
+Nov  7 09:29:33 admkskn-VirtualBox charon: 00[ENC] generating INFORMATIONAL request 2 [ D ]
+
+Nov  7 09:29:33 admkskn-VirtualBox charon: 00[NET] sending packet: from 192.168.50.5[4500] to 192.168.50.4[4500] (80 bytes)
+
+Nov  7 09:29:46 admkskn-VirtualBox systemd[1]: fprintd.service: Deactivated successfully.
+
+Nov  7 09:29:57 admkskn-VirtualBox NetworkManager[614]: <info>  [1667802597.9407] dhcp4 (enp0s3): state changed new lease, address=192.168.50.5
+
+
+
+Receiver Side:
+
+Nov  7 09:29:30 keskinadem-VirtualBox charon: 09[NET] received packet: from 192.168.50.5[4500] to 192.168.50.4[4500] (80 bytes)
+
+Nov  7 09:29:30 keskinadem-VirtualBox charon: 09[ENC] parsed INFORMATIONAL request 2 [ D ]
+
+Nov  7 09:29:30 keskinadem-VirtualBox charon: 09[IKE] received DELETE for IKE_SA tunnel[2]
+
+Nov  7 09:29:30 keskinadem-VirtualBox charon: 09[IKE] deleting IKE_SA tunnel[2] between 192.168.50.4[192.168.50.4]...192.168.50.5[192.168.50.5]
+
+Nov  7 09:29:30 keskinadem-VirtualBox charon: 09[IKE] IKE_SA deleted
+
+Nov  7 09:29:30 keskinadem-VirtualBox charon: 09[ENC] generating INFORMATIONAL response 2 [ ]
+
+Nov  7 09:29:30 keskinadem-VirtualBox charon: 09[NET] sending packet: from 192.168.50.4[4500] to 192.168.50.5[4500] (80 bytes)

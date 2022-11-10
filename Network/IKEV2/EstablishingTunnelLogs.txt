@@ -1,0 +1,117 @@
+kernel: [ 2594.352442] NET: Registered PF_KEY protocol family
+
+Nov  7 09:06:34 keskinadem-VirtualBox charon: 00[DMN] SIGINT received, shutting down
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[793]: 00[DMN] Starting IKE charon daemon (strongSwan 5.9.5, Linux 5.15.0-52-generic, x86_64)
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[793]: 00[LIB] providers loaded by OpenSSL: legacy default
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[793]: 00[CFG] loading ca certificates from '/etc/ipsec.d/cacerts'
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[793]: 00[CFG] loading aa certificates from '/etc/ipsec.d/aacerts'
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[793]: 00[CFG] loading ocsp signer certificates from '/etc/ipsec.d/ocspcerts'
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[793]: 00[CFG] loading attribute certificates from '/etc/ipsec.d/acerts'
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[793]: 00[CFG] loading crls from '/etc/ipsec.d/crls'
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[793]: 00[CFG] loading secrets from '/etc/ipsec.secrets'
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[793]: 00[LIB] loaded plugins: charon aesni aes rc2 sha2 sha1 md5 mgf1 random nonce x509 revocation constraints pubkey pkcs1 pkcs7 pkcs8 pkcs12 pgp dnskey sshkey pem openssl fips-prf gmp agent xcbc hmac gcm drbg attr kernel-netlink resolve socket-default connmark stroke updown eap-mschapv2 xauth-generic counters
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[793]: 00[LIB] dropped capabilities, running as uid 0, gid 0
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[793]: 00[JOB] spawning 16 worker threads
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[793]: 05[KNL] flags changed for fe80::97f6:faf3:4fea:3139 on enp0s3
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[793]: 00[DMN] SIGINT received, shutting down
+
+Nov  7 09:06:34 keskinadem-VirtualBox systemd[1]: strongswan-starter.service: Deactivated successfully.
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[776]: charon stopped after 200 ms
+
+Nov  7 09:06:34 keskinadem-VirtualBox ipsec[776]: ipsec starter stopped
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 00[DMN] Starting IKE charon daemon (strongSwan 5.6.0, Linux 5.15.0-52-generic, x86_64)
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 00[DMN] adem keskin log deneme
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 00[CFG] loading ca certificates from '/usr/local/etc/ipsec.d/cacerts'
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 00[CFG] loading aa certificates from '/usr/local/etc/ipsec.d/aacerts'
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 00[CFG] loading ocsp signer certificates from '/usr/local/etc/ipsec.d/ocspcerts'
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 00[CFG] loading attribute certificates from '/usr/local/etc/ipsec.d/acerts'
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 00[CFG] loading crls from '/usr/local/etc/ipsec.d/crls'
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 00[CFG] loading secrets from '/usr/local/etc/ipsec.secrets'
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 00[CFG]   loaded IKE secret for 192.168.50.4 192.168.50.5
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 00[LIB] loaded plugins: charon aes des rc2 sha2 sha1 md5 random nonce x509 revocation constraints pubkey pkcs1 pkcs7 pkcs8 pkcs12 pgp dnskey sshkey pem openssl fips-prf gmp curve25519 xcbc cmac hmac attr kernel-netlink resolve socket-default stroke vici updown xauth-generic
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 00[JOB] spawning 16 worker threads
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 05[CFG] received stroke: add connection 'tunnel'
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 05[CFG] added configuration 'tunnel'
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 07[CFG] received stroke: initiate 'tunnel'
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 07[IKE] initiating IKE_SA tunnel[1] to 192.168.50.5
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 07[ENC] generating IKE_SA_INIT request 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) N(FRAG_SUP) N(HASH_ALG) N(REDIR_SUP) ]
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 07[NET] sending packet: from 192.168.50.4[500] to 192.168.50.5[500] (338 bytes)
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 09[NET] received packet: from 192.168.50.5[500] to 192.168.50.4[500] (36 bytes)
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 09[ENC] parsed IKE_SA_INIT response 0 [ N(NO_PROP) ]
+
+Nov  7 09:06:36 keskinadem-VirtualBox charon: 09[IKE] received NO_PROPOSAL_CHOSEN notify error
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 11[NET] received packet: from 192.168.50.5[500] to 192.168.50.4[500] (338 bytes)
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 11[ENC] parsed IKE_SA_INIT request 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) N(FRAG_SUP) N(HASH_ALG) N(REDIR_SUP) ]
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 11[IKE] 192.168.50.5 is initiating an IKE_SA
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 11[ENC] generating IKE_SA_INIT response 0 [ SA KE No N(NATD_S_IP) N(NATD_D_IP) N(FRAG_SUP) N(HASH_ALG) N(MULT_AUTH) ]
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 11[NET] sending packet: from 192.168.50.4[500] to 192.168.50.5[500] (338 bytes)
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 12[NET] received packet: from 192.168.50.5[4500] to 192.168.50.4[4500] (272 bytes)
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 12[ENC] parsed IKE_AUTH request 1 [ IDi N(INIT_CONTACT) IDr AUTH SA TSi TSr N(MOBIKE_SUP) N(NO_ADD_ADDR) N(MULT_AUTH) N(EAP_ONLY) N(MSG_ID_SYN_SUP) ]
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 12[CFG] looking for peer configs matching 192.168.50.4[192.168.50.4]...192.168.50.5[192.168.50.5]
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 12[CFG] selected peer config 'tunnel'
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 12[IKE] authentication of '192.168.50.5' with pre-shared key successful
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 12[IKE] peer supports MOBIKE
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 12[IKE] authentication of '192.168.50.4' (myself) with pre-shared key
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 12[IKE] IKE_SA tunnel[2] established between 192.168.50.4[192.168.50.4]...192.168.50.5[192.168.50.5]
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 12[IKE] scheduling reauthentication in 2676s
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 12[IKE] maximum IKE_SA lifetime 3216s
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 12[IKE] CHILD_SA tunnel{1} established with SPIs c6596015_i c0ec0d68_o and TS 192.168.50.0/24 === 192.168.50.0/24
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 12[ENC] generating IKE_AUTH response 1 [ IDr AUTH SA TSi TSr N(AUTH_LFT) N(MOBIKE_SUP) N(NO_ADD_ADDR) ]
+
+Nov  7 09:06:43 keskinadem-VirtualBox charon: 12[NET] sending packet: from 192.168.50.4[4500] to 192.168.50.5[4500] (240 bytes)
+
+Nov  7 09:06:46 keskinadem-VirtualBox systemd[1524]: Started VTE child process 10642 launched by gnome-terminal-server process 10520.
+
+Nov  7 09:08:59 keskinadem-VirtualBox NetworkManager[623]: <info>  [1667801339.9553] manager: NetworkManager state is now CONNECTED_SITE
+
+Nov  7 09:08:59 keskinadem-VirtualBox dbus-daemon[622]: [system] Activating via systemd: service name='org.freedesktop.nm_dispatcher' unit='dbus-org.freedesktop.nm-dispatcher.service' requested by ':1.5' (uid=0 pid=623 comm="/usr/sbin/NetworkManager --no-daemon " label="unconfined")

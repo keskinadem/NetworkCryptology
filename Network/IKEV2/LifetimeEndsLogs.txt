@@ -1,0 +1,65 @@
+Nov  7 09:52:08 keskinadem-VirtualBox charon: 09[NET] sending packet: from 192.168.50.4[4500] to 192.168.50.5[4500] (272 bytes)
+
+Nov  7 09:52:08 keskinadem-VirtualBox charon: 10[NET] received packet: from 192.168.50.5[4500] to 192.168.50.4[4500] (240 bytes)
+
+Nov  7 09:52:08 keskinadem-VirtualBox charon: 10[ENC] parsed IKE_AUTH response 1 [ IDr AUTH SA TSi TSr N(AUTH_LFT) N(MOBIKE_SUP) N(NO_ADD_ADDR) ]
+
+Nov  7 09:52:08 keskinadem-VirtualBox charon: 10[IKE] authentication of '192.168.50.5' with pre-shared key successful
+
+Nov  7 09:52:08 keskinadem-VirtualBox charon: 10[IKE] IKE_SA tunnel[1] established between 192.168.50.4[192.168.50.4]...192.168.50.5[192.168.50.5]
+
+Nov  7 09:52:08 keskinadem-VirtualBox charon: 10[IKE] scheduling reauthentication in 2932s
+
+Nov  7 09:52:08 keskinadem-VirtualBox charon: 10[IKE] maximum IKE_SA lifetime 3472s
+
+Nov  7 09:52:08 keskinadem-VirtualBox charon: 10[IKE] CHILD_SA tunnel{1} established with SPIs c334d55c_i c6efca18_o and TS 192.168.50.0/24 === 192.168.50.0/24
+
+Nov  7 09:52:08 keskinadem-VirtualBox charon: 10[IKE] received AUTH_LIFETIME of 2623s, scheduling reauthentication in 2083s
+
+Nov  7 09:52:08 keskinadem-VirtualBox charon: 10[IKE] peer supports MOBIKE
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 07[NET] received packet: from 192.168.50.5[4500] to 192.168.50.4[4500] (80 bytes)
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 07[ENC] parsed INFORMATIONAL request 0 [ D ]
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 07[IKE] received DELETE for ESP CHILD_SA with SPI c6efca18
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 07[IKE] closing CHILD_SA tunnel{1} with SPIs c334d55c_i (15360 bytes) c6efca18_o (15363 bytes) and TS 192.168.50.0/24 === 192.168.50.0/24
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 07[IKE] sending DELETE for ESP CHILD_SA with SPI c334d55c
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 07[IKE] CHILD_SA closed
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 09[KNL] creating delete job for CHILD_SA ESP/0xc334d55c/192.168.50.4
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 09[JOB] CHILD_SA ESP/0xc334d55c/192.168.50.4 not found for delete
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 10[KNL] creating delete job for CHILD_SA ESP/0xc6efca18/192.168.50.5
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 12[JOB] CHILD_SA ESP/0xc6efca18/192.168.50.5 not found for delete
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 07[ENC] generating INFORMATIONAL response 0 [ D ]
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 07[NET] sending packet: from 192.168.50.4[4500] to 192.168.50.5[4500] (80 bytes)
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 14[NET] received packet: from 192.168.50.5[4500] to 192.168.50.4[4500] (80 bytes)
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 14[ENC] parsed INFORMATIONAL request 1 [ ]
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 14[ENC] generating INFORMATIONAL response 1 [ ]
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 14[NET] sending packet: from 192.168.50.4[4500] to 192.168.50.5[4500] (80 bytes)
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 15[NET] received packet: from 192.168.50.5[4500] to 192.168.50.4[4500] (208 bytes)
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 15[ENC] parsed CREATE_CHILD_SA request 2 [ SA No TSi TSr ]
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 15[IKE] CHILD_SA tunnel{2} established with SPIs cf9e9989_i c8c56fef_o and TS 192.168.50.0/24 === 192.168.50.0/24
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 15[ENC] generating CREATE_CHILD_SA response 2 [ SA No TSi TSr ]
+
+Nov  7 09:55:08 keskinadem-VirtualBox charon: 15[NET] sending packet: from 192.168.50.4[4500] to 192.168.50.5[4500] (208 bytes)
+
+Nov  7 09:56:47 keskinadem-VirtualBox nautilus[10682]: Called "net usershare info" but it failed: Failed to execute child process “net” (No such file or directory)
+
+Nov  7 09:56:56 keskinadem-VirtualBox dbus-daemon[1545]: [session uid=1000 pid=1545] Activating service name='org.gnome.gedit' requested by ':1.145' (uid=1000 pid=10682 comm="/usr/bin/nautilus --gapplication-service " label="unconfined")
