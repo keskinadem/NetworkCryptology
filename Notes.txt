@@ -13,5 +13,5 @@ The PDU of the Data-Link Layer is called Frames
 but it is not possible to send all the data given by the application layer to send directly.
 Thus, the TCP comes into the picture. The TCP helps break the data(given by application layer)
 into MSS(Maximum Segment Size) that the given network can handle so that further fragmentatio
-doesn’t occur in the routers. And this TCP is also responsible for acknowledgements when segments are delivered.
+doesn’t occur in the routers. And this TCP is also responsible for acknowledgements when segments are delivered...
 ================================================================================================================
